@@ -30,7 +30,7 @@ function App() {
   }
 
   const toggleFinished = (e) =>{
-    setshowfinished(!setshowfinished)
+    setshowfinished(prevshowfinished => !prevshowfinished)
 
   }
   
